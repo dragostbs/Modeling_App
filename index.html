@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- The Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script type="module" src="components/js/script.js"></script>
+    <link rel="stylesheet" href="components/css/style.css" />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/800/8124/8124863.png"
+      type="image/x-icon"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav>
+        <ul class="nav__links">
+          <li>
+            <a class="nav__link" href="#section--1">Home</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#section--2">About</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#section--3">Skills</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#section--4">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#section--5">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <img src="components/img/menu.svg" alt="SVG" class="svg" />
+      </label>
+    </header>
+    <!-- Section 1 -->
+    <section class="section content1" id="section--1">
+      <div class="content-info">
+        <img src="/components/img/account.png" alt="IMG" class="account-img" />
+        <h2 class="name">Hi, I'm Leonardo 🤟</h2>
+        <p class="title">Aenean laoreet semper diam, vitae, ultricies.</p>
+        <button class="btn">Download CV</button>
+        <div class="social">
+          <img
+            src="components/img/linkedin.svg"
+            alt="SVG"
+            class="social-icons"
+          />
+          <img src="components/img/github.svg" alt="SVG" class="social-icons" />
+          <img
+            src="components/img/facebook.svg"
+            alt="SVG"
+            class="social-icons"
+          />
+          <img
+            src="components/img/twitter.svg"
+            alt="SVG"
+            class="social-icons"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Section 2 -->
+    <section class="section content2" id="section--2">
+      <div class="titles">
+        <h1>Adipiscing</h1>
+        <p>
+          Nullam aliquam arcu in nunc <br />
+          dapibus posuere.
+        </p>
+      </div>
+      <div class="content">
+        <img src="components/img/screen1.svg" alt="SVG" class="screen" />
+        <div class="section-info">
+          <img src="components/img/laptop.gif" alt="SVG" class="gif" />
+          <h1>Quisque condimentum felis</h1>
+          <p>
+            Sed luctus, purus in mollis porttitor, velit mi volutpat neque, eu
+            lobortis tortor odio non magna. In euismod elit pharetra, mollis
+            neque et, rutrum velit.
+          </p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="section-info">
+          <img src="components/img/physics.gif" alt="SVG" class="gif" />
+          <h1>Donec interdum sollicitud</h1>
+          <p>
+            Praesent semper, arcu sed dapibus elementum, purus augue accumsan
+            velit, at convallis mauris eros eu dui. Donec elementum magna eu
+            congue volutpat.
+          </p>
+        </div>
+        <img src="components/img/screen2.svg" alt="SVG" class="screen" />
+      </div>
+    </section>
+    <!-- Section 3 -->
+    <section class="section content3" id="section--3">
+      <div class="titles">
+        <h1>Vivamus</h1>
+        <p>
+          Etiam ultricies justo et nisl <br />
+          neque sed.
+        </p>
+      </div>
+      <div class="switch-buttons">
+        <button data-tab="1" class="btn-switch1 btn-change tab-active">
+          Praesent auctors
+        </button>
+        <button data-tab="2" class="btn-switch2 btn-change">
+          Vivamus pulvinar
+        </button>
+        <button data-tab="3" class="btn-switch3 btn-change">
+          Suspendie fermen
+        </button>
+      </div>
+      <div class="switch-info">
+        <div class="card-info-1 card-change card-active">
+          <img src="components/img/idea.gif" alt="SVG" class="gif" />
+          <div class="card-content">
+            <h1 class="h1-title">Ut sed pretium felis</h1>
+            <p>
+              Praesent ullamcorper congue tempor. Vivamus ut diam. Pellentesque
+              ultricies urna vestibulum, imperdiet augue at, ullamcorper nulla.
+              Praesent semper, arcu sed dapibus elementum, purus augue accumsan
+              velit, at convallis mauris eros eu dui.
+            </p>
+          </div>
+        </div>
+        <div class="card-info-2 card-change">
+          <img src="components/img/rocket.gif" alt="SVG" class="gif" />
+          <div class="card-content">
+            <h1 class="h1-title">Convallis pulvinar arcu</h1>
+            <p>
+              Mauris magna massa, convallis id arcu ut, porta dictum diam.
+              Vivamus nec augue et enim maximus dictum tincidunt eu ex.
+              Vestibulum consectetur quis enim mattis malesuada. Proin non ex
+              eget sapien iaculis rhoncus.
+            </p>
+          </div>
+        </div>
+        <div class="card-info-3 card-change">
+          <img src="components/img/warning.gif" alt="SVG" class="gif" />
+          <div class="card-content">
+            <h1 class="h1-title">Aliquam in nisl magna</h1>
+            <p>
+              Aliquam rutrum mi ultricies euismod pretium. Suspendisse fringilla
+              vel dui non consectetur. Donec vitae gravida ante. Nulla a
+              efficitur metus, non ultricies orci. Vivamus malesuada, mi ac
+              pharetra rhoncus, augue nulla mollis sem, sed varius.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 4 -->
+    <section class="section content4" id="section--4">
+      <div class="titles">
+        <h1>Pellentesque</h1>
+        <p>
+          Proin laoreet tellus eu turpis <br />
+          sodales pulvinar.
+        </p>
+      </div>
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <div class="change-info slide-1">
+              <div class="contact-info">
+                <h1>Nullam vitae malesuada</h1>
+                <p>
+                  Phasellus odio ipsum, rutrum id neque sed, posuere porta
+                  velit. Etiam quis sollicitudin mauris. Fusce mattis, ligula
+                  sed elementum pharetra, purus erat facilisis est. Vivamus ac
+                  pulvinar ligula, sit amet scelerisque massa. In euismod elit
+                  pharetra, mollis neque et, rutrum velit.
+                </p>
+              </div>
+              <div class="user">
+                <img src="components/img/old-man.png" alt="PNG" class="png" />
+                <div class="contact">
+                  <h1>Mauris Tincidunt</h1>
+                  <p>Praesent luctus, Ligula</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="testimonial">
+            <div class="change-info slide-2">
+              <div class="contact-info">
+                <h1>Lacinia eu fermentum</h1>
+                <p>
+                  Etiam vitae ante eros. Sed mauris tortor, vehicula at iaculis
+                  non, tincidunt et arcu. Pellentesque tempus, eros volutpat
+                  convallis porta, lorem ex mollis eros, quis viverra nibh metus
+                  quis enim. Vivamus et magna a magna placerat consectetur. Sed
+                  ultrices ornare diam.
+                </p>
+              </div>
+              <div class="user">
+                <img src="components/img/woman.png" alt="PNG" class="png" />
+                <div class="contact">
+                  <h1>Donec faucibus</h1>
+                  <p>Imperdiet augue, Fames</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="testimonial">
+            <div class="change-info slide-3">
+              <div class="contact-info">
+                <h1>Cras non augue gravida</h1>
+                <p>
+                  Sed venenatis pretium pellentesque. Sed orci ipsum, cursus a
+                  sodales id, blandit id risus. Donec faucibus, purus eget
+                  ullamcorper pulvinar, elit sem fringilla dolor, in tempus
+                  augue nibh in nulla. Suspendisse interdum diam vitae lectus
+                  bibendum euismod.
+                </p>
+              </div>
+              <div class="user">
+                <img src="components/img/man.png" alt="PNG" class="png" />
+                <div class="contact">
+                  <h1>Proin aliquet</h1>
+                  <p>Dictum tortor, Eget</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="components/img/arrow-left.svg"
+          alt="SVG"
+          class="arrow1 slider-btn"
+        />
+        <img
+          src="components/img/arrow-right.svg"
+          alt="SVG"
+          class="arrow2 slider-btn"
+        />
+        <div class="dots"></div>
+      </div>
+    </section>
+    <!-- Section 5 -->
+    <section class="section content5" id="section--5">
+      <div class="last-text">
+        <p>
+          Donec vulputate convallis diam. Integer imperdiet purus sollicitudin
+          congue lac.
+        </p>
+        <button class="btn">Know More</button>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <hr />
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
