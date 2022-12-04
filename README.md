@@ -1,6 +1,6 @@
 # One Page Application 🤿
 
-Web Application with Javascript features, Html, CSS design
+Web Application with Javascript features, template design
 
 ## Built With
 
