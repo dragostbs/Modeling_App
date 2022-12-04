@@ -1,6 +1,6 @@
 # One Page Application 🤿
 
-Keep track of your daily activities with Garmin Connect and Strava
+Web Application with Javascript features, Html, CSS design
 
 ## Built With
 
